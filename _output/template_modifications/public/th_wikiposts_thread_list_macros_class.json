@@ -1,0 +1,9 @@
+{
+    "template": "thread_list_macros",
+    "description": "Adds the WIkiPost class to the list item for WikiPosts",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "{{ $thread.isIgnored() ? ' is-ignored' : '' }}",
+    "replace": "$0{{ $thread.th_wikiposts_is_wikipost ? ' WikiPost is-wikipost'  : '' }}"
+}

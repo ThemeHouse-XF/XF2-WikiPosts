@@ -1,0 +1,9 @@
+{
+    "template": "thread_view",
+    "description": "Adds the WikiPost alert to WikiPost threads.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:if is=\"$thread.discussion_state == 'deleted'\">",
+    "replace": "<xf:if is=\"$thread.th_wikiposts_is_wikipost\">\n\t<dd class=\"blockStatus-message blockStatus-message--wikiPost\">\n\t\t{{ phrase('th_wikiposts_this_thread_is_a_wikipost') }}\n\t</dd>\n</xf:if>\n$0"
+}

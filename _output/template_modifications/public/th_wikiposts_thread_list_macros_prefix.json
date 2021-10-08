@@ -1,0 +1,9 @@
+{
+    "template": "thread_list_macros",
+    "description": "Add WikiPost prefix.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:if is=\"$thread.prefix_id\">",
+    "replace": "<xf:if is=\"{$thread.th_wikiposts_is_wikipost}\"><a href=\"{{ link('forums/-/wikipost', $thread) }}\"><span class=\"label label--primary\">{{ phrase('th_wikiposts_wiki') }}</span></a></xf:if>$0"
+}

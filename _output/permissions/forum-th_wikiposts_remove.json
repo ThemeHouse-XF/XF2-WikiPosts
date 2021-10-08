@@ -1,0 +1,6 @@
+{
+    "permission_type": "flag",
+    "interface_group_id": "th_wikiposts_moderator",
+    "display_order": 1,
+    "depend_permission_id": ""
+}

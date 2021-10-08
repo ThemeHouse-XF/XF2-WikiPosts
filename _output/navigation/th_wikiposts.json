@@ -1,0 +1,11 @@
+{
+    "parent_navigation_id": "forums",
+    "display_order": 2000,
+    "navigation_type_id": "basic",
+    "type_config": {
+        "link": "{{ link('forums/wikipost') }}",
+        "display_condition": "",
+        "extra_attributes": []
+    },
+    "enabled": true
+}

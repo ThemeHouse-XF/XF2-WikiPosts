@@ -1,0 +1,52 @@
+<xf:title>
+	<xf:if is="$forum">
+		{{ phrase('th_wikiposts_wiki_posts_in_x', {'forum': $forum.title})}}
+		<xf:else />
+		{{ phrase('th_wikiposts_wiki_posts') }}
+	</xf:if>
+</xf:title>
+
+<xf:if is="$threads is not empty">
+	<xf:if is="$canInlineMod">
+		<xf:js src="xf/inline_mod.js" min="1" />
+	</xf:if>
+
+	<div class="block" data-xf-init="{{ $canInlineMod ? 'inline-mod' : '' }}" data-type="thread" data-href="{{ link('inline-mod') }}">
+
+		<div class="block-outer">
+			<xf:pagenav page="{$page}" perpage="{$perPage}" total="{$total}"
+						link="forums/wikipost" data="{$forum}"
+						wrapperclass="block-outer-main" />
+
+			<xf:if is="$canInlineMod">
+				<div class="block-outer-opposite">
+					<div class="buttonGroup">
+						<xf:macro template="inline_mod_macros" name="button" />
+					</div>
+				</div>
+			</xf:if>
+		</div>
+
+		<div class="block-container">
+			<div class="block-body">
+				<div class="structItemContainer">
+					<xf:foreach loop="$threads" value="$thread">
+						<xf:set var="$extra" value=""/>
+						<xf:macro template="thread_list_macros" name="item"
+								  arg-thread="{$thread}"
+								  arg-allowEdit_xxx="{{ false }}" />
+					</xf:foreach>
+				</div>
+				<div class="block-footer">
+					<span class="block-footer-counter">{{ display_totals($threads.count(), $total) }}</span>
+				</div>
+			</div>
+		</div>
+
+		<xf:pagenav link="forums/wikipost" data="{$forum}"
+					page="{$page}" perpage="{$perPage}" total="{$total}"
+					wrapperclass="block-outer block-outer--after" />
+	</div>
+	<xf:else />
+	<div class="blockMessage">{{ phrase('there_no_threads_to_display') }}</div>
+</xf:if>

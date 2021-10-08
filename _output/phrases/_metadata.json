@@ -1,0 +1,80 @@
+{
+    "nav.th_wikiposts.txt": {
+        "global_cache": false,
+        "version_id": 2000031,
+        "version_string": "2.0.0 Beta 1",
+        "hash": "3aff8043d32a5bb4be4e424cdf3232e4"
+    },
+    "permission.forum_th_wikiposts_create.txt": {
+        "global_cache": false,
+        "version_id": 2000031,
+        "version_string": "2.0.0 Beta 1",
+        "hash": "934e0ada6454e4269545002835167276"
+    },
+    "permission.forum_th_wikiposts_edit.txt": {
+        "global_cache": false,
+        "version_id": 2000031,
+        "version_string": "2.0.0 Beta 1",
+        "hash": "0006bc5bcb99d789afa2c7f5ad60ae52"
+    },
+    "permission.forum_th_wikiposts_remove.txt": {
+        "global_cache": false,
+        "version_id": 2000031,
+        "version_string": "2.0.0 Beta 1",
+        "hash": "f40bd95278fbd40de802adf61ab6e4f7"
+    },
+    "permission_interface.th_wikiposts.txt": {
+        "global_cache": false,
+        "version_id": 2000031,
+        "version_string": "2.0.0 Beta 1",
+        "hash": "191b30c264666d602cc079105bc29e82"
+    },
+    "permission_interface.th_wikiposts_moderator.txt": {
+        "global_cache": false,
+        "version_id": 2000031,
+        "version_string": "2.0.0 Beta 1",
+        "hash": "8fc6e582d3857b3110058323bc57f575"
+    },
+    "th_wikiposts_last_edited_by_x.txt": {
+        "global_cache": false,
+        "version_id": 2000031,
+        "version_string": "2.0.0 Beta 1",
+        "hash": "19f002283d1f6db093921cd8852a9638"
+    },
+    "th_wikiposts_this_thread_is_a_wikipost.txt": {
+        "global_cache": false,
+        "version_id": 2000031,
+        "version_string": "2.0.0 Beta 1",
+        "hash": "d02b31da56e82be0c4c56f424b46e63b"
+    },
+    "th_wikiposts_wiki.txt": {
+        "global_cache": false,
+        "version_id": 2000031,
+        "version_string": "2.0.0 Beta 1",
+        "hash": "bf111e3622a72a3b5dc784b5903983ca"
+    },
+    "th_wikiposts_wiki_posts.txt": {
+        "global_cache": false,
+        "version_id": 2000031,
+        "version_string": "2.0.0 Beta 1",
+        "hash": "566217103ebe2a7b23f49db3ae6454dc"
+    },
+    "th_wikiposts_wiki_posts_in_x.txt": {
+        "global_cache": false,
+        "version_id": 2000031,
+        "version_string": "2.0.0 Beta 1",
+        "hash": "f292a5ae1cc1fe104121d38725fdd1f2"
+    },
+    "th_wikiposts_wikipost_status.txt": {
+        "global_cache": false,
+        "version_id": 2000031,
+        "version_string": "2.0.0 Beta 1",
+        "hash": "e44120598788e548981fc26b9560b767"
+    },
+    "th_wikiposts_wikipost_status_hint.txt": {
+        "global_cache": false,
+        "version_id": 2000031,
+        "version_string": "2.0.0 Beta 1",
+        "hash": "cee98b3bc897b11190a6335ea6078a3d"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "template": "helper_thread_options",
+    "description": "Add WikiPost toggle to thread status selector.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:if is=\"$thread.canLockUnlock()\">",
+    "replace": "<xf:if is=\"($thread.th_wikiposts_is_wikipost && $thread.canRemoveWikiPost())\n\t\t   || (!$thread.th_wikiposts_is_wikipost && $thread.canAddWikiPost())\">\n\t<xf:option name=\"th_wikiposts_is_wikipost\" value=\"1\" selected=\"{$thread.th_wikiposts_is_wikipost}\"\n\t\t\t   label=\"{{ phrase('th_wikiposts_wikipost_status') }}\"\n\t\t\t   hint=\"{{ phrase('th_wikiposts_wikipost_status_hint') }}\">\n\n\t\t<xf:afterhtml>\n\t\t\t<xf:hiddenval name=\"_xfSet[th_wikiposts_is_wikipost]\" value=\"1\" />\n\t\t</xf:afterhtml>\n\t</xf:option>\n</xf:if>\n$0"
+}

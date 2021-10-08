@@ -1,0 +1,17 @@
+{
+    "public/th_wikiposts_helper_thread_options.json": {
+        "hash": "0d25d122b67b923cb5d3c5015c7e09b7"
+    },
+    "public/th_wikiposts_post_macros.json": {
+        "hash": "4a8e1c0cbd2afbf5e0f92854fb24d67c"
+    },
+    "public/th_wikiposts_thread_list_macros_class.json": {
+        "hash": "ee51e35a31b2fd7ae100b2fc08659537"
+    },
+    "public/th_wikiposts_thread_list_macros_prefix.json": {
+        "hash": "77860251f354abbe7961f99fdf2cdb6b"
+    },
+    "public/th_wikiposts_thread_view.json": {
+        "hash": "2c95e94087dbb9c6c6d55d81973c95da"
+    }
+}

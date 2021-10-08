@@ -1,0 +1,20 @@
+{
+    "XF-Entity-Post_ThemeHouse-WikiPosts-XF-Entity-Post.json": {
+        "hash": "8e55ecd1fdd8efa553224aeb642512b4"
+    },
+    "XF-Entity-Thread_ThemeHouse-WikiPosts-XF-Entity-Thread.json": {
+        "hash": "446d7c87de4ffbd80278744f7a82dd91"
+    },
+    "XF-Pub-Controller-Forum_ThemeHouse-WikiPosts-XF-Pub-Controller-Forum.json": {
+        "hash": "d3de162d24c1e318ac21271d41d604de"
+    },
+    "XF-Pub-Controller-Thread_ThemeHouse-WikiPosts-XF-Pub-Controller-Thread.json": {
+        "hash": "d5a1ea3d3ca9b423abcc7aac462644e8"
+    },
+    "XF-Service-Thread-Creator_ThemeHouse-WikiPosts-XF-Service-Thread-Creator.json": {
+        "hash": "13c6d47ac131e6451954c1c9763bfa45"
+    },
+    "XF-Service-Thread-Editor_ThemeHouse-WikiPosts-XF-Service-Thread-Editor.json": {
+        "hash": "b210db0f4b08847a0644037479e37a9c"
+    }
+}
